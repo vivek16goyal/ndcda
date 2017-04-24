@@ -585,6 +585,8 @@ function BackButton() {
         case "ImageSelect":
             if (activemenu == 'O') {
                 window.location.href = "#Item-Info-Search";
+                $("#itm-srch").val("");
+
             } else {
                 window.location.href = "#page-con";
             }
@@ -2202,6 +2204,7 @@ function Heading_show() {
 }
 
 function Order_click() {
+    $("#itm-srch").val("");
     $("#a-msg").hide();
     if (localStorage.getItem("APIURL") == "" || localStorage.getItem("APIURL") == null) {
         if (APPType == "$") {
@@ -2572,7 +2575,7 @@ $(function () {
         }).data("ui-autocomplete")._renderItem = function (ul, item) {
             return $('<li></li>')
               .append("<a style='padding-left:5px;padding-right:5px;padding-top:8px;line-height:6vh'><label style='width:90%;white-space:initial;' > " + item.label + " (" + item.packing + ")</label>")
-              .append("<p style='margin:0px;padding-left:5px;padding-right:5px;'> MRP : " + item.Mrp + "</p>")
+              //.append("<p style='margin:0px;padding-left:5px;padding-right:5px;'> MRP : " + item.Mrp + "</p>")
               .append("<hr /></a>")
               .appendTo(ul);
         };
@@ -2668,6 +2671,7 @@ function ClearItemInfo() {
     $("#lblItmName").text("");
     $("#PackExp").text("");
     $("#itm-srch").val("");
+    $("#PT_BODY").val("");
 }
 
 function fun_showItmInfo(id) {
@@ -2833,7 +2837,7 @@ function GET_PARTYCODE()
             $(".hide-page-loading-msg").click();
             var itm = data;
            
-           // $("#saleRptBody").html("");
+            $("#PT_BODY").html("");
             $("#PT_BODY").append("<table  class='CSSTableGenerator' style='border-collapse:collapse;width:100%'><tr><td style='text-align:center;'>Party Code</td><td style='text-align:center;'>Party Name</td></tr>");
             for (var i = 0; i < itm.length; i++) {
                 

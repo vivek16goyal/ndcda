@@ -1,15 +1,15 @@
 /* TiaERP custom CSS */
 /*vivek*/
-/*#gold;#ffaa3e*/
+/*#green;#adaa07*/
 
 .theme-color >.jqm-demos >.jqm-header
 {
-    background-color:#ffaa3e!important;
+    background-color:#adaa07!important;
 }
 
 .theme-color >.jqm-demos >.my-footer
 {
-    background-color:#ffaa3e!important;
+    background-color:#adaa07!important;
 }
 
 
@@ -19,7 +19,7 @@
 }
 .theme-color-green
 {
-    background-color:#ffaa3e!important;
+    background-color:#adaa07!important;
      box-shadow: 0px 3px 5px #bbbdbb;
 }
 
@@ -31,7 +31,7 @@
 
 .theme-color-txt
 {
-    color:#ffaa3e!important;
+    color:#adaa07!important;
 }
 
 .theme-color-txt-red
@@ -132,7 +132,7 @@
 
 .pro-img1
 {
-     position:absolute;top:120px; padding: 10px; background-color: #ffaa3e; border-radius: 40px;width:25px;
+     position:absolute;top:120px; padding: 10px; background-color: #adaa07; border-radius: 40px;width:25px;
 }
 
     .pro-menutd
@@ -461,7 +461,7 @@ display:none;
 	margin: 0 0 .625em;
 }
 .jqm-demos .jqm-content > h2 {
-	color: #3eb249;
+	color: #adaa07;
 	background-color: transparent;
 	border-bottom: 1px solid #ddd;
 	font-size: 1.6em;
@@ -469,7 +469,7 @@ display:none;
 	margin: 0 0 .7375em;
 }
 .jqm-demos .jqm-content > h3 {
-	color: #3eb249;
+	color: #adaa07;
 	background-color: transparent;
 	font-size: 1.4em;
 	margin: 0 0 1em;
@@ -589,7 +589,7 @@ display:none;
 .jqm-block-content h3 {
 	font-size: 1.5em;
 	font-weight: 300;
-	color: #3eb249;
+	color: #adaa07;
 	border-bottom: 1px solid #ddd;
 	padding-bottom: .25em;
 	margin: 0 0 .5em;
@@ -645,7 +645,7 @@ display:none;
 	color: #fff;
 }
 .jqm-demos .jqm-list .ui-li-divider {
-	color: #3eb249;
+	color: #adaa07;
 }
 
 /* Navmenu */
@@ -743,7 +743,7 @@ display:none;
 .jqm-demos .jqm-content .jqm-view-source-link:visited,
 .jqm-demos .jqm-content .jqm-view-source-link:hover,
 .jqm-demos .jqm-content .jqm-view-source-link:active {
-	color: #3eb249;
+	color: #adaa07;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	margin: 2em 0 1.5em 1em;
@@ -909,7 +909,7 @@ display:none;
     background: transparent;
 }
 .jqm-view-source .ui-collapsible-content::-webkit-scrollbar-thumb {
-	background: #435A5F;
+	background: #adaa07;
 	border: solid #222;
 	border-width: 12px 2px 12px 0;
 	border-bottom-right-radius: 5px;
@@ -946,7 +946,7 @@ display:none;
 .jqm-view-source .ui-btn.ui-btn-e:hover,
 .jqm-view-source .ui-btn.ui-btn-e:active,
 .jqm-view-source .ui-btn.ui-btn-e.ui-btn-active {
-	background: #3EB249;
+	background: #adaa07;
 	border-color: #108040;
 	color: #fff;
 	text-shadow: 0 1px 0 #108040;
@@ -1093,10 +1093,10 @@ display:none;
 	color: #afafaf;
 }
 .syntaxhighlighter .gutter .line {
-	border-right: 3px solid #435a5f;
+	border-right: 3px solid #adaa07;
 }
 .syntaxhighlighter .gutter .line.highlighted {
-	background-color: #435a5f;
+	background-color: #adaa07;
 	color: #0f192a;
 }
 .syntaxhighlighter.collapsed {
@@ -1109,7 +1109,7 @@ display:none;
 	color: #5ba1cf;
 }
 .syntaxhighlighter .string {
-	color: #98da31;
+	color: #adaa07;
 }
 .syntaxhighlighter .string a {
 	color: #1dc116;
@@ -1121,13 +1121,13 @@ display:none;
 	color: #8aa6c1;
 }
 .syntaxhighlighter .variable {
-	color: #ffaa3e;
+	color: #adaa07;
 }
 .syntaxhighlighter .value {
 	color: #f7e741;
 }
 .syntaxhighlighter .functions {
-	color: #ffaa3e;
+	color: #adaa07;
 }
 .syntaxhighlighter .constants {
 	color: #e0e8ff;
@@ -1147,7 +1147,7 @@ display:none;
 	color: white;
 }
 .syntaxhighlighter .color3, .syntaxhighlighter .color3 a {
-	color: #ffaa3e;
+	color: #adaa07;
 }
 .syntaxhighlighter table td.code {
 	cursor: text;
