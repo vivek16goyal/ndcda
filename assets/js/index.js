@@ -48,8 +48,8 @@ var party;
 //var pDocReq = "0";
 
 var loadmsg = "Please Wait....";
-var GBCServicePath = "http://tiaapp.goyalonline.in/";
-//var GBCServicePath = "http://localhost:51738/";
+//var GBCServicePath = "http://tiaapp.goyalonline.in/";
+var GBCServicePath = "http://localhost:51738/";
 var pictureSource;
 var destinationType;
 var Flag;
@@ -2824,12 +2824,14 @@ function InsertDataToarray() {
 
 function GET_PARTYCODE()
 {
+    //GBCServicePath 
     var WebSerUrl = localStorage.getItem("APIURL");
-    url = WebSerUrl + "/Product/getPARTYCODE?PCODE=" + item_pt;
+    url = WebSerUrl + "/Product/getPARTYCODE";
     $.ajax({
         url: url,
        // url: WebSerUrl,
         type: "GET",
+        data: { PCODE:item_pt },
         dataType: "json",
         cache: false,
         success: function (data) {
